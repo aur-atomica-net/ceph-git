@@ -136,7 +136,7 @@ build() {
         -DWITH_OPENLDAP=OFF \
         -DWITH_LTTNG=OFF \
         -DHAVE_BABELTRACE=OFF \
-        -DWITH_TESTS=OFF \
+        -DWITH_TESTS=ON \
         ..
     make
 }
