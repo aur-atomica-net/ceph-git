@@ -44,7 +44,7 @@ makedepends=('git'
              'boost-libs'
              'yasm'
              'cmake'
-             'python-sphinx'
+             'python2-sphinx'
              'cython2'
              'nss')
 install=ceph.install
