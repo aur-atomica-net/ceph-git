@@ -124,7 +124,7 @@ build() {
     cd "${srcdir}/${pkgname%%-git}/build"
     # list of options defaults: grep ^option CMakeLists.txt
     cmake \
-        -DCMAKE_CXX_COMPILER_LAUNCHER=ccache
+        -DCMAKE_CXX_COMPILER_LAUNCHER=ccache \
         -DCMAKE_INSTALL_PREFIX=/usr \
         -DCMAKE_INSTALL_SYSCONFDIR=/etc \
         -DCMAKE_INSTALL_SBINDIR=/usr/bin \
